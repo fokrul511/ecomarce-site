@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(image/background5.jpg);
+    color: #263d5a;
+}
+/* nav section start */
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+.manu a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+    color: rgb(42, 40, 40);
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.manu a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.navbar button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: rgb(186,63,251);
+    background: linear-gradient(90deg, rgba(186,63,251,1) 0%, rgba(252,70,104,1) 100%);
+    color: white;
+    transition: 0.5s;
+    /* copy some file */
+    
+}
+.btn button:hover{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: rgb(186,63,251);
+    background: linear-gradient(90deg, rgba(186,63,251,1) 0%, rgba(252,70,104,1) 100%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: -5px;
+}
+/* nav section end */
+/* home section start */
+.home{
+    margin: 65px;
+   
+}
+.home-text{
+    background-color: rgb(255,255,255,0.3);
+    backdrop-filter: blur(10px);
+    width: 800px;
+    height: 400px;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    padding: 40px;
+    align-items: center;
+    box-shadow: 1px 1px 15px 0px rgba(0,0,0,0.75);
+    z-index: 5;
+    position: absolute;
+    margin-left: 50px;
+    
+    
+}
+.photograper{
+    width: 770px;
+    height: 440px;
+    z-index: 3;
+    position: absolute;
+    margin-left:700px ;
+    margin-top: 22px;
+    border-radius: 30px;
+    
+}
+.home-text h1{
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.home-text p{
+    font-size: 28px;
+    font-family: sans-serif;
+    padding: 30px 0px;
+   
+}
+.home-text button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: rgb(186,63,251);
+    background: linear-gradient(90deg, rgba(186,63,251,1) 0%, rgba(252,70,104,1) 100%);
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.home-text button:hover{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: rgb(186,63,251);
+    background: linear-gradient(90deg, rgba(186,63,251,1) 0%, rgba(252,70,104,1) 100%);
+    color: white;
+    cursor: pointer;
+    margin-top: -5px;
+    transition: 0.5s;
+
+}
+.photograper{
+    
+}
+/* home section end */
